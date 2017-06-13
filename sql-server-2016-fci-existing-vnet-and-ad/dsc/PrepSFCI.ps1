@@ -102,7 +102,7 @@ configuration PrepSFCI
             UpdateSource = ""
             SetupCredential = $DomainCreds
             Features = "SQLENGINE,AS"
-            InstanceName = "MSSQLSERVER"
+            InstanceName = "HALDB"
             FailoverClusterNetworkName = "SQLFCI"
             SQLSvcAccount = $ServiceCreds
         }
